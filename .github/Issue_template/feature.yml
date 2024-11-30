@@ -1,7 +1,7 @@
 name: "✨ Feature Request"
 description: "Suggest an idea for this project "
 title: "Feat:"
-labels: [Feat, Needs Triage]
+labels: ["feature"]
 body:
   - type: textarea
     attributes:
@@ -11,8 +11,8 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: "Add ScreenShots"
-      description: "Add sufficient SS to explain your issue."
+      label: "Screenshots/Videos(if applicable)"
+      description: "Share some screenshots or a video to explain the issue that you're experiencing."
     validations:
       required: true
   - type: checkboxes
@@ -21,5 +21,4 @@ body:
       options:
         - label: "I agree to follow this project's Code of Conduct"
           required: true
-        - label: "I'm a GSSOC'24 contributor"
         - label: "I want to work on this issue"
