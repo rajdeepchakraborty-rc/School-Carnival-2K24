@@ -1,10 +1,10 @@
-# Related Issue
+# Issue Resolved
 
 [Cite any related issue(s) this pull request addresses. If none, simply state “None”]
 
 <!---give the issue number you fixed----->
 
-Closes:  Issue #(issue no.)
+- Closes #(issue no.)
 
 # Description
 
