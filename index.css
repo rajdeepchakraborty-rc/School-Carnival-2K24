@@ -1,0 +1,153 @@
+*{
+    padding:0px 0px;
+    margin: 0px 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+#navber {
+    background-color: #d7c1c1;
+    height: 72px;
+    padding: 10px 20px;
+}
+#nave_menu {
+    list-style-type: none;
+    margin: 24px;
+    
+    display: flex;
+}
+.nav_element {
+    margin: -6px 38px;
+    padding: 10px 20px;
+
+}
+ .nav_element a{
+    color: rgb(10, 7, 7);
+    text-decoration: none;
+    font-style:inherit;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.nav_element a:hover{
+    color: rgb(233, 255, 167);
+}
+.nav_element :active{
+    text-decoration: underline;
+    color: rgb(233, 255, 167);
+    
+
+}
+@media(max-width:713px)
+
+{
+    .nav_element {
+       
+        
+        padding-left:-500px;
+    }
+    #nave_menu{
+        padding-left: -10px;
+    }
+    #navber{
+        background-color:white;
+    height: 72px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
+    
+
+}
+footer{
+    background: #c6fff9;
+    padding-top: 50px;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(12, 10, 6);
+    text-align: center;
+}
+.footer-content p{
+    padding: 2px 88px;
+
+}
+
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding:100px;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #111253;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: rgb(0, 0, 0);
+    padding: 2px 8px;
+    font-size: 31px;
+   
+}
+a{
+    text-decoration: none;
+}
+
+.social-icons i:hover{
+    color: #d2b8b8;
+    transition: 0.5s;
+  transition-property: inherit;
+}
+.bottom-bar{
+    background: #000000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #fff8f8;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
