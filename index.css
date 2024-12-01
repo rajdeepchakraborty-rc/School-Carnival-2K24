@@ -179,6 +179,10 @@ h3{
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
+.social-icons .fa-globe:hover {
+    color: #be760a;
+}
+
 .social-icons .fa-facebook:hover {
     color: #1877F2;
 }
