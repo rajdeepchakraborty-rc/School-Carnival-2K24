@@ -15,7 +15,21 @@
             <li class="nav_element"><a href="#">About</a></li>
             <li class="nav_element"><a href="#">Rules</a></li>
             <li class="nav_element"><a href="#">Games</a></li>
+            <button id="btn">Register</button>
         </ul>
+        <div class="popup">
+            
+            <div class="popup_element">
+                <img src="closer.jpg" alt="loding image" class="closer">
+
+
+                <h3>pritam tung</h3>
+            <p> cupiditate magnam sed corporis alias saepe perferendis? Cupiditate reiciendis sequi porro nemo ex soluta magnam iste numquam.</p>
+            <img src="popup_image.jpg" alt="loding image" class="popup_image">
+            <button id="btn_1">Register</button>
+            </div>
+        </div>
+        
     </nav>
     
      <footer>
@@ -40,8 +54,23 @@
         <p>&copy; 2024 your college .</p>
     </div>
 
-     </footer>
+    <script>
+        document.getElementById("btn").addEventListener("click",function(){
+            document.querySelector(".popup").style.display="flex";
+        })
+        document.querySelector(".closer").addEventListener("click",function(){
+            document.querySelector('.popup').style.display="none";
+        })
+        setTimeout(function(){
+           
+                document.querySelector(".popup").style.display="flex";
+            
 
+        },5000)
+
+        
+        
+    </script>
     
 </body>
 </html>
