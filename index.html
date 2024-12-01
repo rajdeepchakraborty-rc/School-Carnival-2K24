@@ -45,20 +45,26 @@
                 <p>Phone:+91 9339768425</p>
                 <p>Address:Hooghly,</p>
             </div>
-        <div class="footer-content">
-            <h3>Follow Us</h3>
-            <ul class="social-icons">
-             <li><a href="https://www.facebook.com/hooghlyengineeringandtechnologycollege" target="_blank"><i class="fab fa-facebook"></i></a></li>
-             <li><a href="https://x.com/nsshetc" target="_blank"><i class="fab fa-x-twitter"></i></a></li>
-             <li><a href="https://www.linkedin.com/school/hooghly-engineering-and-technology-college-176" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-             <li><a href="https://www.youtube.com/@youtubehetc582" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            </ul>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                <li><a href="https://www.facebook.com/hooghlyengineeringandtechnologycollege" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://x.com/nsshetc" target="_blank"><i class="fab fa-x-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/school/hooghly-engineering-and-technology-college-176" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com/@youtubehetc582" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
             </div>
-    </div>
+        </div>
+
+        <!-- Add Scroll to top button -->
+        <button id="scrollToTopBtn" class="scrollToTopBtn" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+   
+        <div class="bottom-bar">
+            <p>&copy; 2024 your college .</p>
+        </div>
     
-    <div class="bottom-bar">
-        <p>&copy; 2024 your college .</p>
-    </div>
      </footer>
 
     <script>
@@ -76,6 +82,25 @@
         },5000)
 
         
+        // Show the button when the user scrolls down 100px from the top
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+
+        // Scroll to top when the button is clicked
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll effect
+            });
+        }
         
     </script>
     
