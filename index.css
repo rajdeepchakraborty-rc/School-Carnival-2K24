@@ -9,7 +9,8 @@ body {
 }
 /* navber decorate...*/
 #navber {
-    background-color: #d7c1c1;
+    position: sticky;
+    background-color: #fff8f8;
     height: 72px;
     padding: 10px 20px;
 }
@@ -33,7 +34,7 @@ body {
     font-size: 22px;
 }
 .nav_element a:hover{
-    color: rgb(233, 255, 167);
+    color: rgb(13, 11, 16);
 }
 .nav_element :active{
     text-decoration: underline;
@@ -65,7 +66,10 @@ body {
 }
 /*footer decorate*/
 footer{
-    background: #c6fff9;
+    position: relative;
+    display: block;
+    top:396px;
+    background: #ffffff;
     padding-top: 50px;
     box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
 }
@@ -172,7 +176,8 @@ a{
 cursor: pointer;}
 /* popup register page*/
 .popup{
-    background:rgba(0,0,0,0.6);
+    top: 235px;
+    
     color: white;
     width: 100%;
     height: 100%;
@@ -191,17 +196,18 @@ cursor: pointer;}
     border-radius: 2px;
     position: relative;
     padding: 10px;
-    background-color: wheat;
+    background-color: rgb(255, 243, 220);
     width: 423px;
     height: 271px;
-    color: rebeccapurple;
+    color: rgb(0, 0, 0);
     border-radius: 2px;
     position: relative;
     padding: 10px;
     box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
     pointer-events: all;
     transform: translateY(0);
-    opacity: 1;
+    opacity: -1;
+   
 
 }
 /*popup register button*/
@@ -241,4 +247,135 @@ cursor: pointer;}
     position: relative;
     height: 30px;
     empty-cells:50px;
+}
+/* section Hero bakground image*/
+#s_hero{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 207px;
+
+}
+#s_hero::before{
+    content: "";
+    background:url('/Assets/bakground_image.jpg')no-repeat center/cover ;
+    
+    color: white;
+    position: absolute;
+    z-index: -1;
+height: 198%;
+width: 100%;
+opacity: 0.80;
+margin-bottom: 10px;
+}
+/*section modify*/
+#h_1{position: relative;
+    top: 116px;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: #8c4bb7;
+    text-shadow: 2px 2px #50005b;
+    animation-name: example_1;
+    animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+    
+}
+@keyframes example_1 {
+    from { color: #9b8080;
+        text-shadow: 2px 2px #e3ec82;}
+    to{ color: #d5b8ea;
+        text-shadow: 2px 2px #f1ff70;}}
+  
+#h_2
+{font-size: 38px;
+    position: relative;
+    top: 116px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: #d89d9d;
+    text-shadow: 2px 2px #00a4cd;
+    animation-name: example_2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+/* add animation*/
+@keyframes example_2 {
+    from { color: #d89d9d;
+        text-shadow: 2px 2px #00a4cd;}
+    to{ color: #5c02a1;
+        text-shadow: 2px 2px #d8eaef;}}
+  
+#h_3
+{font-size: 32px;
+    position: relative;
+    top: 116px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: revert-layer;
+    color: #3e3131;
+    text-shadow: 2px 2px #eef606;
+    animation-name: example_3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;}
+    @keyframes example_3 {
+        from { color: #d89d9d;
+            text-shadow: 2px 2px #00a4cd;}
+        to{ color: #9568b8;
+            text-shadow: 2px 2px #00a4cd;}}
+      
+#h_4{
+    position: relative;
+    top: 116px;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: revert-layer;
+    color: #3e3131;
+    text-shadow: 2px 2px #517d9d;
+    animation-name: example_4;
+    animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes example_4 {
+    from { color: #3020e2;
+        text-shadow: 2px 2px #ffffff;}
+    to{ color: #22ff2d;
+        text-shadow: 2px 2px #d0e8ee;}}
+  
+
+/* para in section*/
+#para{
+    position: relative;
+    top: 110px;
+    font-size: 17px;
+    color: #55218a;
+}
+.Q_code{
+    position: relative;
+    top: 114px;
+    height: 148px;
+    width: 141px;
+    
+}
+#btn_2{
+    position: relative;
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 4px 7px 3px rgb(44, 12, 12);
+    height: auto;
+    width: 139px;
+    background-color: #dbff0e;
+    color: black;
+    font-size: 30px;
+    top: 125px;
+    transition: 0.5s;
+   
+}
+#btn_2:hover{
+    background-color: #000000;
+    color: yellow;
+    cursor: pointer;
+    box-shadow: 4px 7px 3px rgb(214, 91, 255);
 }
