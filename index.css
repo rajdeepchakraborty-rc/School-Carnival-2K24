@@ -9,15 +9,27 @@ body {
 }
 /* navber decorate...*/
 #navber {
+  
+   border-top: 1px solid var(--gfg-darkgrey);
+    box-shadow: 0 2px 20px -10px var(--gfg-head-shadow);
+    min-height: 40px;
+    background-color: rgb(255, 229, 250);
+    display: flex;
+
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    transition: top .3s ease;
     position: sticky;
-    background-color: #fff8f8;
-    height: 72px;
-    padding: 10px 20px;
+    top: 0px;
+    z-index: 1021 !important;
+   
     
 }
 #nave_menu {
     list-style-type: none;
     margin: 24px;
+    padding-top: 18px;
     
     display: flex;
 }
@@ -69,10 +81,11 @@ body {
 footer{
     position: relative;
     display: block;
-    top: 390px;
+    top: 585px;
+    bottom:0px;
     background: #b4a0a0;
     padding-top: 50px;
-    box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
+    box-shadow:0 4px 6px rgba(37, 26, 26, 0.1) ;
 }
 .container{
     width: 1140px;
@@ -177,17 +190,17 @@ a{
 cursor: pointer;}
 /* popup register page*/
 .popup{
-    top:-60px;
+    
     
     color: white;
-    width: 100%;
-    height: 100%;
-    position:relative;
+   
+    position:sticky;
     
     display:none;
     justify-content: center;
     align-items: center;
     z-index:10;
+    top: 314px;
 }
 .popup_element
 {
@@ -196,14 +209,14 @@ cursor: pointer;}
     height: 500px;
     color: rebeccapurple;
     border-radius: 2px;
-    position: relative;
+    position: absolute;
     padding: 10px;
     background-color: rgb(255, 243, 220);
     width: 423px;
     height: 271px;
     color: rgb(0, 0, 0);
     border-radius: 2px;
-    position: relative;
+    position: absolute;
     padding: 10px;
     box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
     pointer-events: all;
@@ -253,29 +266,31 @@ cursor: pointer;}
 /* section Hero bakground image*/
 #s_hero{
     display:flex;
-    flex-direction: column;
-    padding: 3px 200px;
+   flex-direction: column;
+    background: url(/Assets/bakground_image.jpg);
+    background-attachment: fixed;
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    bottom: 0px;
+
+    
+    
     align-items: center;
     justify-content: center;
-    height: 207px;
     
 
 }
-#s_hero::before{
-    content: "";
-    background:url('/Assets/bakground_image.jpg')no-repeat center/cover ;
-    
-    color: white;
-    position: absolute;
-    z-index: -1;
-height: 198%;
-width: 100%;
-opacity: 0.80;
-margin-bottom: 10px;
-}
+
+
 /*section modify*/
 #h_1{position: relative;
-    top:  133px;
+    top:49px;
     font-size: 33px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: inherit;
@@ -295,7 +310,7 @@ margin-bottom: 10px;
 #h_2
 {font-size: 38px;
     position: relative;
-    top:  133px;
+    top:  49px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: inherit;
     color: #d89d9d;
@@ -314,7 +329,7 @@ margin-bottom: 10px;
 #h_3
 {font-size: 32px;
     position: relative;
-    top:  133px;
+    top:  49px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: revert-layer;
     color: #3e3131;
@@ -330,7 +345,7 @@ margin-bottom: 10px;
       
 #h_4{
     position: relative;
-    top:  133px;
+    top:  49px;
     font-size: 32px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: revert-layer;
@@ -350,13 +365,13 @@ margin-bottom: 10px;
 /* para in section*/
 #para{
     position: relative;
-    top:  133px;
+    top:  49px;
     font-size: 17px;
-    color: #55218a;
+    color: #000000;
 }
 .Q_code{
     position: relative;
-    top:  133px;
+    top:  49px;
     height: 148px;
     width: 141px;
     
@@ -372,7 +387,7 @@ margin-bottom: 10px;
     background-color: #dbff0e;
     color: black;
     font-size: 30px;
-    top:  133px;
+    top:  49px;
     transition: 0.5s;
    
 }
@@ -384,7 +399,7 @@ margin-bottom: 10px;
 }
 #para_1{
     position: relative;
-    top: 145px;
+    top: 51px;
     font-size: 17px;
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -393,8 +408,8 @@ margin-bottom: 10px;
     padding-left: 10px;
     border-radius: 5px;
     box-sizing: border-box;
-    z-index: -1;
-    opacity: 0.4;
+    margin-bottom: -33px;
+    
 
 
 }
