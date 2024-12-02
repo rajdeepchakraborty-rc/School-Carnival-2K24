@@ -474,7 +474,6 @@ cursor: pointer;}
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
-
 @keyframes example_1 {
     from { color: #9b8080;
         text-shadow: 2px 2px #e3ec82;}
