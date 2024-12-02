@@ -3,6 +3,7 @@
     #navber {
         flex-direction: column; /* Stack elements vertically */
         min-height: auto;
+        background-attachment: fixed;
     }
 
     #nave_menu {
