@@ -57,27 +57,7 @@ body {
     
 
 }
-@media(max-width:725px)
 
-{
-    .nav_element {
-       
-        margin-left: -10px;
-    }
-    #nave_menu{
-        padding-left: -10px;
-    }
-    #navber{
-    background-color:rgb(228, 221, 221);
-    height: 72px;
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    }
-    
-
-}
 /*footer decorate*/
 footer{
   
