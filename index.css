@@ -2,6 +2,8 @@
     padding:0px 0px;
     margin: 0px 0px;
 }
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,13 +14,14 @@ body {
   
    border-top: 1px solid var(--gfg-darkgrey);
     box-shadow: 0 2px 20px -10px var(--gfg-head-shadow);
-    min-height: 40px;
+    height: 15vh;
     background-color: rgb(255, 229, 250);
     display: flex;
 
     flex-direction: row;
-    overflow: hidden;
-    width: 100%;
+   
+    width: 100vw;
+    
     transition: top .3s ease;
     position: sticky;
     top: 0px;
@@ -36,6 +39,7 @@ body {
 .nav_element {
     margin: -6px 38px;
     padding: 10px 20px;
+    
 
 }
  .nav_element a{
@@ -45,7 +49,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 22px;
-}
+ }
 .nav_element a:hover{
     color: rgb(13, 11, 16);
 }
@@ -55,33 +59,12 @@ body {
     
 
 }
-@media(max-width:713px)
 
-{
-    .nav_element {
-       
-        
-        padding-left:-500px;
-    }
-    #nave_menu{
-        padding-left: -10px;
-    }
-    #navber{
-        background-color:white;
-    height: 72px;
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    }
-    
-
-}
 /*footer decorate*/
 footer{
-    position: relative;
-    display: block;
-    top: 585px;
+  
+    
+    width: 100%;
     bottom:0px;
     background: #b4a0a0;
     padding-top: 50px;
@@ -100,7 +83,7 @@ footer{
 }
 
 .container .logo{
-    width: 130px;
+    width: 107px;
 }
 
 h3{
@@ -152,7 +135,7 @@ h3{
     transition-duration: .5s;
 }
 .list li:hover::before{
-    width: 70px;
+    width: 61px;
 }
 .social-icons{
     text-align: center;
@@ -235,31 +218,12 @@ h3{
     padding: 7px;
 }
 /*register button decorate*/
-#btn{
-    position: relative;
-    left: 595px;
-    border-radius: 5px;
-    height: auto;
-    width: 76px;
-    background-color: #ffffff;
-    color: black;
-    font-size: 14px;
-}
-#btn:hover{
-    background-color: red;
-    color: wheat;
-    transition: 0.5s;
 
-cursor: pointer;}
 /* popup register page*/
 .popup{
     
-    
-    
-   
     position:sticky;
     color: white;
-    
     display:none;
     justify-content: center;
     align-items: center;
@@ -282,7 +246,7 @@ cursor: pointer;}
     height: 271px;
     color: rgb(0, 0, 0);
     border-radius: 2px;
-    position: absolute;
+    top:-628px;
     padding: 10px;
     box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
     pointer-events: all;
@@ -292,24 +256,7 @@ cursor: pointer;}
 
 }
 /*popup register button*/
-#btn_1{
-     
-        top:82px;
-        position: relative;
-        left: 167px;
-        border-radius: 5px;
-        height: 39px;
-        width: 92px;
-        background-color: #d35c5c;
-        color: rgb(255, 244, 244);
-        font-size: 17px;
-}
-#btn_1:hover{
-    background-color: red;
-    color: wheat;
-    transition: 0.5s;
 
-cursor: pointer;}
 /*closer in popup */
 .closer{
     position: relative;
@@ -334,148 +281,139 @@ cursor: pointer;}
     display:flex;
    flex-direction: column;
     background: url(/Assets/bakground_image.jpg);
-    background-attachment: fixed;
     
+   
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    border: 5px solid black;
-    height: 100%;
-    position: absolute;
-    top: 0px;
+    
+    height: 100vh;
+   width: 100vw;
+    position: relative;
+   /* top: 93px;
     width: 100%;
     bottom: 0px;
+    padding-top: 10px;
 
     
-    
+    */
+    padding-bottom: 145px;
     align-items: center;
     justify-content: center;
     
 
 }
-
-
 /*section modify*/
-#h_1{position: relative;
-    top:49px;
-    font-size: 33px;
+/* General Styling */
+#h_1, #h_2, #h_3, #h_4 {
+    position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: inherit;
-    color: #8c4bb7;
-    text-shadow: 2px 2px #50005b;
+    top:-64px; 
+    text-align: center; 
+}
+#h_1 {
+    font-size: 28px;
+    padding-top: 50px;
     animation-name: example_1;
     animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-    
+    animation-iteration-count: infinite;
 }
 @keyframes example_1 {
     from { color: #9b8080;
         text-shadow: 2px 2px #e3ec82;}
     to{ color: #d5b8ea;
         text-shadow: 2px 2px #f1ff70;}}
-  
-#h_2
-{font-size: 38px;
-    position: relative;
-    top:  49px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: inherit;
-    color: #d89d9d;
-    text-shadow: 2px 2px #00a4cd;
+#h_2 {
+    font-size: 30px;
+    padding-top: 10px;
     animation-name: example_2;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
-/* add animation*/
-@keyframes example_2 {
-    from { color: #d89d9d;
-        text-shadow: 2px 2px #00a4cd;}
-    to{ color: #5c02a1;
-        text-shadow: 2px 2px #d8eaef;}}
-  
-#h_3
-{font-size: 32px;
-    position: relative;
-    top:  49px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: revert-layer;
-    color: #3e3131;
-    text-shadow: 2px 2px #eef606;
-    animation-name: example_3;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;}
-    @keyframes example_3 {
+    @keyframes example_2 {
         from { color: #d89d9d;
             text-shadow: 2px 2px #00a4cd;}
-        to{ color: #9568b8;
-            text-shadow: 2px 2px #00a4cd;}}
+        to{ color: #5c02a1;
+            text-shadow: 2px 2px #d8eaef;}}
       
-#h_4{
-    position: relative;
-    top:  49px;
-    font-size: 32px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: revert-layer;
-    color: #3e3131;
-    text-shadow: 2px 2px #517d9d;
+
+#h_3, #h_4 {
+    font-size: 26px;
+    padding-top: 10px;
+    animation-name: example_3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
     animation-name: example_4;
     animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
+@keyframes example_3 {
+    from { color: #d89d9d;
+        text-shadow: 2px 2px #00a4cd;}
+    to{ color: #9568b8;
+        text-shadow: 2px 2px #00a4cd;}}
 @keyframes example_4 {
-    from { color: #3020e2;
-        text-shadow: 2px 2px #ffffff;}
-    to{ color: #22ff2d;
-        text-shadow: 2px 2px #d0e8ee;}}
-  
-
-/* para in section*/
-#para{
+            from { color: #3020e2;
+                text-shadow: 2px 2px #ffffff;}
+            to{ color: #22ff2d;
+                text-shadow: 2px 2px #d0e8ee;}}
+          
+/* Responsive Paragraph */
+#para, #para_1 {
     position: relative;
-    top:  49px;
-    font-size: 17px;
-    color: #000000;
+    top:-80px;
+    font-size: 14px; 
+    text-align: justify; 
+    margin: 0 20px; 
+    padding: 10px;
 }
-.Q_code{
-    position: relative;
-    top:  49px;
-    height: 148px;
-    width: 141px;
-    
-}
-#btn_2{
-    position: relative;
-    background-color: red;
-    color: black;
+#para_1 {
+    background-color: #307fff;
+    color: white;
     border-radius: 5px;
-    box-shadow: 4px 7px 3px rgb(44, 12, 12);
-    height: auto;
-    width: 139px;
-    background-color: #dbff0e;
-    color: black;
-    font-size: 30px;
-    top:  49px;
-    transition: 0.5s;
-   
+    margin: 10px 20px; 
 }
-#btn_2:hover{
+
+/* QR Code Styling */
+.Q_code {
+    position: relative;
+    top: -67px;
+    height: 120px;
+    width: 120px;
+    margin: 10px auto;
+    display: block;
+
+}
+
+/* Button Styling */
+#btn_2 {
+    position: relative;
+    top: -81px;
+    font-size: 20px; 
+    width: auto; 
+    padding: 10px 20px; 
+    margin: 10px auto; 
+   border-radius: 5px;
+   color: #000000;
+    background-color: rgb(212, 93, 255);
+    box-shadow: 4px 7px 3px rgb(211, 204, 213); 
+}
+#btn_2:hover {
     background-color: #000000;
     color: yellow;
-    cursor: pointer;
     box-shadow: 4px 7px 3px rgb(214, 91, 255);
+    cursor: pointer;
 }
-#para_1{
+
+
+/*logo*/
+.logo_1{
+    height: 58px;
+    width: 60px;
+    background: none;
+    border-radius: 50px;
+    box-shadow: white 1px 2px 3px;
     position: relative;
-    top: 51px;
-    font-size: 17px;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    padding: 3px 102px;
-    margin: 9px 280px;
-    padding-left: 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: -33px;
-    
+    top: -12px;
 
 
 }
