@@ -65,14 +65,20 @@ body {
 
 .games{
     background: url(/Assets/bakground_image.jpg) no-repeat center/cover;
-    padding-bottom: 30px;
+    padding-bottom: 125px;
+}
+
+.game{
+    text-align: center;
+    padding: 105px 0 40px;
+    font-size: 50px;
 }
 
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 100px;
-    padding: 100px;
+    padding: 0 100px;
     max-width: 1600px;
   }
   
