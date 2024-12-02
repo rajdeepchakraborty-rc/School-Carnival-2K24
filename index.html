@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="Assets/Favicon.png" type="image/x-icon">
     <title>School Carnival 2K24</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
     <!-- Added Font Awesome Icons Version to render the X logo icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -18,35 +20,37 @@
 <body>
     <nav id="navber">
         <ul id="nave_menu">
+            
+            <img src="/Assets/Favicon.png" alt="loding image " class="logo_1">
             <li class="nav_element"><a href="#">Home</a></li>
             <li class="nav_element"><a href="#">About</a></li>
             <li class="nav_element"><a href="#">Rules</a></li>
             <li class="nav_element"><a href="#">Games</a></li>
-            <button id="btn">Register</button>
+           
         </ul>
 
     </nav>
 
     <section>
         <div id="s_hero">
-
-            <h3 id="h_1">organized by</h3>
-            <h3 id="h_2">HOOGHLY ENGINEERING & TECHNOLOGY COLLEGE</h3>
-
-
-            <h1 id="h_3">22nd December</h1>
-            <h1 id="h_4">2024</h1>
-            <img src="/Assets/Q_code.jpg" alt="loding image" class="Q_code">
-            <p id="para">
-                Scan to Register or Visit the link below
-            </p>
-            <button id="btn_2">Register</button>
-            <p id="para_1">
-                All the participants will be provided with a pariticipation certificate. Besides, the winners will be
-                acknowleged with parizes and certificates of appreciation.
-            </p>
-        </div>
-
+      
+        <h3 id="h_1" class="h">organized by</h3>
+        <h3 id="h_2">HOOGHLY ENGINEERING & TECHNOLOGY COLLEGE</h3>
+        
+        
+        <h1 id="h_3" class="h">22nd December</h1>
+        <h1 id="h_4" class="h">2024</h1>
+        <img src="/Assets/Q_code.jpg" alt="loding image" class="Q_code">
+        <p id="para"
+        class="h">
+            Scan to Register or Visit the link below
+        </p>
+        <button id="btn_2">Register</button>
+         <p id="para_1" class="h">
+            All the participants will be provided with a pariticipation certificate. Besides, the winners will be acknowleged with parizes and certificates of appreciation.
+    </p>
+    </div>
+        
 
     </section>
     <div class="popup">
@@ -243,11 +247,9 @@
     </footer>
 
     <script>
-        document.getElementById("btn").addEventListener("click", function () {
-            document.querySelector(".popup").style.display = "flex";
-        })
-        document.querySelector(".closer").addEventListener("click", function () {
-            document.querySelector('.popup').style.display = "none";
+       
+        document.querySelector(".closer").addEventListener("click",function(){
+            document.querySelector('.popup').style.display="none";
         })
         setTimeout(function () {
 
@@ -257,10 +259,11 @@
         }, 1000)
 
 
-        // Show the button when the user scrolls down 100px from the top
-        window.onscroll = function () { scrollFunction() };
+        
+        //Show the button when the user scrolls down 100px from the top
+        window.onscroll = function() {scrollFunction()};
 
-        function scrollFunction() {
+       function scrollFunction() {
             const scrollToTopBtn = document.getElementById("scrollToTopBtn");
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
                 scrollToTopBtn.style.display = "block";
@@ -276,7 +279,8 @@
                 behavior: 'smooth' // Smooth scroll effect
             });
         }
-
+            
+        
     </script>
 
 </body>
