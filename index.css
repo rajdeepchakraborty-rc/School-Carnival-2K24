@@ -82,7 +82,7 @@ footer{
 }
 
 .container .logo{
-    width: 130px;
+    width: 61px;
 }
 
 h3{
@@ -158,7 +158,7 @@ h3{
 }
 
 .social-icons a:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1); 
 }
 
 .social-icons .fa-globe:hover {
