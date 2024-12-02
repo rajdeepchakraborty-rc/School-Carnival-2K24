@@ -1,8 +1,16 @@
+/* General Reset for Mobile View */
+body {
+    font-size: 16px; /* Ensure readable font size */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
 /*navigation menu*/
 @media (max-width: 768px) {
     #navber {
         flex-direction: column; /* Stack elements vertically */
-        min-height: auto;
+        height: auto;
         background-attachment: fixed;
     }
 
@@ -24,8 +32,33 @@
         font-size: 18px;
         padding-left:1.5rem/* Adjust font size for smaller screens */
     }
+    #nave_menu  img{
+        top:auto;
+    }
+    
 }
 /* Sectioin hero*/
+@media (max-width:430px)
+{ #h_1, #h_2, #h_3, #h_4 {
+    font-size: 22px;
+    top: 20px; /* Reduce spacing for medium screens */
+}
+#para, #para_1 {
+    font-size: 14px;
+    top:10px;
+}
+.Q_code {
+    height: 100px;
+    width: 100px;
+    top: auto;
+}
+#btn_2 {
+    font-size: 18px;
+    padding: 8px 15px;
+    top: auto;
+}
+
+}
 
 
 /* Responsive Breakpoints */
@@ -36,14 +69,17 @@
     }
     #para, #para_1 {
         font-size: 14px;
+        top:10px;
     }
     .Q_code {
         height: 100px;
         width: 100px;
+        top: auto;
     }
     #btn_2 {
         font-size: 18px;
         padding: 8px 15px;
+        top: auto;
     }
 }
 
@@ -105,37 +141,78 @@
         margin-bottom: 10px; 
     }
 }
+@media only screen and (max-width: 390px)
+{
+    .closer {
+        top: -22px;
+        left: auto;
+        right: -340px; 
+        height: 20px;
+        width: 20px;
+    }
+    
+    .popup_image {
+        height: 50px; 
+        margin-bottom: 10px; 
+    }
+    .popup {
+       
+        justify-content: center;
+        align-items: flex-start; 
+        margin-top:10px ;
+        margin-top:20px ;
+        
+    }
+
+    .popup_element {
+        width: 80%; 
+        height: auto; 
+        padding: 15px; 
+        top:-1000px;
+        
+        transform: translateY(0); 
+        font-size: 14px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+}
 
 
 
 /* footer section*/
-/*
-@media (max-width: 768px) {
+/* Footer Responsiveness */
+@media screen and (max-width: 768px) {
     .container {
-        flex-direction: column; 
-        align-items: center; }
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+
     .footer-content {
-        width: 90%; 
+        width: 100%;
         margin-bottom: 20px;
     }
+
+    .social-icons li {
+        display: inline-block;
+        margin: 5px;
+    }
+
     .social-icons i {
-        font-size: 20px; 
+        font-size: 20px;
     }
 }
 
-@media (max-width: 480px) {
-    h3 {
-        font-size: 18px;
-    }
-    .footer-content p {
-        font-size: 12px;
-    }
-    .social-icons i {
-        font-size: 18px; 
-    }
+/* Scroll to Top Button Responsiveness */
+@media screen and (max-width: 768px) {
     .scrollToTopBtn {
-        font-size: 18px;
-        padding: 6px 10px;
+        bottom: 10px;
+        right: 10px;
+        font-size: 20px;
+        padding: 8px 12px;
     }
 }
-    */
+

@@ -14,13 +14,14 @@ body {
   
    border-top: 1px solid var(--gfg-darkgrey);
     box-shadow: 0 2px 20px -10px var(--gfg-head-shadow);
-    min-height: 20vh;
+    height: 15vh;
     background-color: rgb(255, 229, 250);
     display: flex;
 
     flex-direction: row;
    
     width: 100vw;
+    
     transition: top .3s ease;
     position: sticky;
     top: 0px;
@@ -82,7 +83,7 @@ footer{
 }
 
 .container .logo{
-    width: 61px;
+    width: 107px;
 }
 
 h3{
@@ -134,7 +135,7 @@ h3{
     transition-duration: .5s;
 }
 .list li:hover::before{
-    width: 70px;
+    width: 61px;
 }
 .social-icons{
     text-align: center;
@@ -307,7 +308,7 @@ h3{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: inherit;
-    top: 30px; 
+    top:-64px; 
     text-align: center; 
 }
 #h_1 {
@@ -358,13 +359,15 @@ h3{
           
 /* Responsive Paragraph */
 #para, #para_1 {
+    position: relative;
+    top:-80px;
     font-size: 14px; 
     text-align: justify; 
     margin: 0 20px; 
     padding: 10px;
 }
 #para_1 {
-    background-color: #000000;
+    background-color: #307fff;
     color: white;
     border-radius: 5px;
     margin: 10px 20px; 
@@ -372,14 +375,19 @@ h3{
 
 /* QR Code Styling */
 .Q_code {
-    height: 120px; 
+    position: relative;
+    top: -67px;
+    height: 120px;
     width: 120px;
-    margin: 10px auto; 
-    display: block; 
+    margin: 10px auto;
+    display: block;
+
 }
 
 /* Button Styling */
 #btn_2 {
+    position: relative;
+    top: -81px;
     font-size: 20px; 
     width: auto; 
     padding: 10px 20px; 
