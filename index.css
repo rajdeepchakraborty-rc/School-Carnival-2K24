@@ -11,6 +11,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0px;
+    overflow-x: hidden;
 }
 /* navber decorate...*/
 #navber {
@@ -66,6 +67,7 @@ body {
 .games{
     background: url(/Assets/bakground_image.jpg) no-repeat center/cover;
     padding-bottom: 125px;
+    width: 100vw;
 }
 
 .game{
@@ -217,7 +219,7 @@ body {
 
 /*footer decorate*/
 footer{
-    width: 100%;
+    width: 100vw;
     bottom:0px;
     background: #b4a0a0;
     padding-top: 50px;
