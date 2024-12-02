@@ -159,7 +159,7 @@ h3{
 }
 
 .social-icons a:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
 .social-icons .fa-globe:hover {
