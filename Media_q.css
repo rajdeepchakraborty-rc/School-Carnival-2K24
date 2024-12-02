@@ -1,1 +1,96 @@
-/* hello world*/
+/*navigation menu*/
+@media (max-width: 768px) {
+    #navber {
+        flex-direction: column; /* Stack elements vertically */
+        min-height: auto;
+    }
+
+    #nave_menu {
+        flex-direction: row; /* Stack menu items vertically */
+        margin: 0;
+        padding: 10px 10px;
+        
+        align-items: center;
+    }
+
+    .nav_element {
+        margin: 10px 0; /* Add spacing between items */
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav_element a {
+        font-size: 18px;
+        padding-left:1.5rem/* Adjust font size for smaller screens */
+    }
+}
+/* Sectioin hero*/
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    #h_1, #h_2, #h_3, #h_4 {
+        font-size: 22px;
+        top: 20px; /* Reduce spacing for medium screens */
+    }
+    #para, #para_1 {
+        font-size: 14px;
+    }
+    .Q_code {
+        height: 100px;
+        width: 100px;
+    }
+    #btn_2 {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #h_1, #h_2, #h_3, #h_4 {
+        font-size: 18px;
+        top: 10px;
+    }
+    #para, #para_1 {
+        font-size: 12px;
+    }
+    .Q_code {
+        height: 80px;
+        width: 80px;
+    }
+    #btn_2 {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+}
+
+
+/* footer section*/
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+    }
+    .footer-content {
+        width: 90%; /* Take more width on smaller screens */
+        margin-bottom: 20px;
+    }
+    .social-icons i {
+        font-size: 20px; /* Smaller icons for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h3 {
+        font-size: 18px;
+    }
+    .footer-content p {
+        font-size: 12px;
+    }
+    .social-icons i {
+        font-size: 18px; /* Further reduce icon size */
+    }
+    .scrollToTopBtn {
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+}
