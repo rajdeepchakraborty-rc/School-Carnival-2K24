@@ -17,7 +17,7 @@ body {
     #nave_menu {
         flex-direction: row; /* Stack menu items vertically */
         margin: 0;
-        padding: 10px 10px;
+        padding: 0px 0px;
         
         align-items: center;
     }
@@ -29,10 +29,12 @@ body {
     }
 
     .nav_element a {
-        font-size: 18px;
+        font-size: 12px;
         padding-left:1.5rem/* Adjust font size for smaller screens */
     }
     #nave_menu  img{
+        width:10vw;
+        height:10vh;
         top:auto;
     }
     
@@ -45,7 +47,9 @@ body {
 }
 #para, #para_1 {
     font-size: 14px;
-    top:10px;
+    position:relative;
+     top:-10px;
+    
 }
 .Q_code {
     height: 100px;
@@ -69,7 +73,9 @@ body {
     }
     #para, #para_1 {
         font-size: 14px;
-        top:10px;
+        position:relative;
+        top:-10px;
+        
     }
     .Q_code {
         height: 100px;
@@ -87,15 +93,27 @@ body {
     #h_1, #h_2, #h_3, #h_4 {
         font-size: 18px;
         top: 10px;
+        margin-bottom:1px;
     }
+   
+    
+
+    
     #para, #para_1 {
         font-size: 12px;
+        font-size: 12px;
+        position:relative;
+        top:-20px;
+    }
+    #para_1{
+        margin-top:20px;
     }
     .Q_code {
         height: 80px;
         width: 80px;
     }
     #btn_2 {
+        margin-top:-20px;
         font-size: 16px;
         padding: 6px 10px;
     }
