@@ -55,11 +55,13 @@ body {
     font-size: 22px;
  }
 .nav_element a:hover{
-    color: rgb(13, 11, 16);
+    color: rgb(255, 0, 0);
 }
 .nav_element :active{
-    text-decoration: underline;
-    color: rgb(233, 255, 167);
+    
+    color: rgb(255, 162, 3);
+    
+
 }
 
 /* Game Section CSS */
