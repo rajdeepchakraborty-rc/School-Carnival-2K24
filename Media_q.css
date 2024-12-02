@@ -27,6 +27,7 @@
 }
 /* Sectioin hero*/
 
+
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
     #h_1, #h_2, #h_3, #h_4 {
@@ -62,6 +63,9 @@
         font-size: 16px;
         padding: 6px 10px;
     }
+    #s_hero{
+        margin-bottom: -20px;
+    }
 }
 /* responsive for popup section*/
 /* Base popup styles remain the same */
@@ -78,10 +82,10 @@
     }
 
     .popup_element {
-        width: 90%; 
+        width: 80%; 
         height: auto; 
         padding: 15px; 
-       
+        top:-1000px;
         
         transform: translateY(0); 
         font-size: 14px; 
@@ -89,9 +93,9 @@
     }
 
     .closer {
-        top: -15px;
+        top: -22px;
         left: auto;
-        right: 10px; 
+        right: -340px; 
         height: 20px;
         width: 20px;
     }
