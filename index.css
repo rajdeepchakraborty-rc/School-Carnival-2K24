@@ -65,6 +65,7 @@ body {
 
 .games{
     background: url(/Assets/bakground_image.jpg) no-repeat center/cover;
+    padding-bottom: 30px;
 }
 
 .card-container {
@@ -443,7 +444,7 @@ h3{
 
     
     */
-    padding-bottom: 145px;
+    /* padding-bottom: 145px; */
     align-items: center;
     justify-content: center;
     
