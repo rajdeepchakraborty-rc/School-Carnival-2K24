@@ -65,17 +65,17 @@
 
 
 /* footer section*/
+/*
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align items */
-    }
+        flex-direction: column; 
+        align-items: center; }
     .footer-content {
-        width: 90%; /* Take more width on smaller screens */
+        width: 90%; 
         margin-bottom: 20px;
     }
     .social-icons i {
-        font-size: 20px; /* Smaller icons for medium screens */
+        font-size: 20px; 
     }
 }
 
@@ -87,10 +87,11 @@
         font-size: 12px;
     }
     .social-icons i {
-        font-size: 18px; /* Further reduce icon size */
+        font-size: 18px; 
     }
     .scrollToTopBtn {
         font-size: 18px;
         padding: 6px 10px;
     }
 }
+    */
