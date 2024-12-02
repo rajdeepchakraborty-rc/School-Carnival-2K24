@@ -62,6 +62,45 @@
         padding: 6px 10px;
     }
 }
+/* responsive for popup section*/
+/* Base popup styles remain the same */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .popup {
+       
+        justify-content: center;
+        align-items: flex-start; 
+        margin-top:10px ;
+        margin-top:20px ;
+        
+    }
+
+    .popup_element {
+        width: 90%; 
+        height: auto; 
+        padding: 15px; 
+       
+        
+        transform: translateY(0); 
+        font-size: 14px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+    .closer {
+        top: -15px;
+        left: auto;
+        right: 10px; 
+        height: 20px;
+        width: 20px;
+    }
+
+    .popup_image {
+        height: 50px; 
+        margin-bottom: 10px; 
+    }
+}
+
 
 
 /* footer section*/

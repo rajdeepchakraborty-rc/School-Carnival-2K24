@@ -217,31 +217,12 @@ h3{
     padding: 7px;
 }
 /*register button decorate*/
-#btn{
-    position: relative;
-    left: 595px;
-    border-radius: 5px;
-    height: auto;
-    width: 76px;
-    background-color: #ffffff;
-    color: black;
-    font-size: 14px;
-}
-#btn:hover{
-    background-color: red;
-    color: wheat;
-    transition: 0.5s;
 
-cursor: pointer;}
 /* popup register page*/
 .popup{
     
-    
-    
-   
     position:sticky;
     color: white;
-    
     display:none;
     justify-content: center;
     align-items: center;
@@ -264,7 +245,7 @@ cursor: pointer;}
     height: 271px;
     color: rgb(0, 0, 0);
     border-radius: 2px;
-    position: absolute;
+    top:-630px;
     padding: 10px;
     box-shadow:0 4px 6px rgba(0,0,0,0.1) ;
     pointer-events: all;
@@ -320,145 +301,7 @@ cursor: pointer;}
     
 
 }
-
-
 /*section modify*/
-/*
-#h_1{position: relative;
-    top:49px;
-    font-size: 33px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: inherit;
-    color: #8c4bb7;
-    text-shadow: 2px 2px #50005b;
-    padding-top: 87px;
-    animation-name: example_1;
-    animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-    
-}
-
-@keyframes example_1 {
-    from { color: #9b8080;
-        text-shadow: 2px 2px #e3ec82;}
-    to{ color: #d5b8ea;
-        text-shadow: 2px 2px #f1ff70;}}
-  
-#h_2
-{font-size: 38px;
-    position: relative;
-    top:  49px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: inherit;
-    padding-top: 10px;
-    color: #d89d9d;
-    text-shadow: 2px 2px #00a4cd;
-    animation-name: example_2;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
-/* add animation*/
-/*
-@keyframes example_2 {
-    from { color: #d89d9d;
-        text-shadow: 2px 2px #00a4cd;}
-    to{ color: #5c02a1;
-        text-shadow: 2px 2px #d8eaef;}}
-  
-#h_3
-{font-size: 32px;
-    position: relative;
-    top:  49px;
-    padding-top: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: revert-layer;
-    color: #3e3131;
-    text-shadow: 2px 2px #eef606;
-    animation-name: example_3;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;}
-    @keyframes example_3 {
-        from { color: #d89d9d;
-            text-shadow: 2px 2px #00a4cd;}
-        to{ color: #9568b8;
-            text-shadow: 2px 2px #00a4cd;}}
-      
-#h_4{
-    position: relative;
-    top:  49px;
-    font-size: 32px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: revert-layer;
-    color: #3e3131;
-    padding-top: 10px;
-    text-shadow: 2px 2px #517d9d;
-    animation-name: example_4;
-    animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
-@keyframes example_4 {
-    from { color: #3020e2;
-        text-shadow: 2px 2px #ffffff;}
-    to{ color: #22ff2d;
-        text-shadow: 2px 2px #d0e8ee;}}
-  
-
-/* para in section*/
-/*
-#para{
-    position: relative;
-    top:  49px;
-    font-size: 17px;
-    color: #000000;
-}
-.Q_code{
-    position: relative;
-    top:  49px;
-    height: 148px;
-    width: 141px;
-    
-}
-#btn_2{
-    position: relative;
-    background-color: red;
-    color: black;
-    border-radius: 5px;
-    box-shadow: 4px 7px 3px rgb(44, 12, 12);
-    height: auto;
-    width: 139px;
-    background-color: #dbff0e;
-    color: black;
-    font-size: 30px;
-    top:  49px;
-    transition: 0.5s;
-   
-}
-#btn_2:hover{
-    background-color: #000000;
-    color: yellow;
-    cursor: pointer;
-    box-shadow: 4px 7px 3px rgb(214, 91, 255);
-}
-
-#para_1{
-    position: relative;
-    top: 51px;
-    font-size: 17px;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    padding: 3px 102px;
-    margin: 9px 280px;
-    padding-left: 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: -33px;
-    
-
-
-}
-
-    
-
 /* General Styling */
 #h_1, #h_2, #h_3, #h_4 {
     position: relative;
