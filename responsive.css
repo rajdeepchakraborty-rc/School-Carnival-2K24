@@ -47,9 +47,10 @@ html, body {
         padding-left:1.5rem/* Adjust font size for smaller screens */
     }
     #nave_menu  img{
-        width:10vw;
-        height:40px;
+        width:12vw;
+        height:45px;
         top:auto;/*FIXED LOGO*/
+        padding-left:10px;
     }
     
 }
@@ -316,7 +317,6 @@ html, body {
 @media screen and (max-width: 768px) {
     .scrollToTopBtn {
         bottom: 30px;
-        right: 50px;
         font-size: 20px;
         padding: 8px 12px;
     }
