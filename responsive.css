@@ -126,6 +126,72 @@ body {
         margin-bottom: -20px;
     }
 }
+/*responsive game section*/
+@media (max-width: 768px) {
+    .game {
+        position: relative;
+        top: -26px;
+        font-size: 18px;
+        padding: 60px 0 10px;
+    }
+    
+
+    .card-container {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+        gap: 20px;
+        padding: 0 10px;
+        margin-top:-70px;
+    }
+
+    .card {
+        height:10em; 
+        width:15em;
+        margin-left:2em;
+        margin-top:5em;/* Reduce card height for smaller screens */
+    }
+
+    .card-front h1 {
+        font-size: 20px; /* Adjust font size */
+        bottom: -180px;
+    }
+    .card-back {
+        position: absolute;
+        font-size:15px;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 12px;
+        display: flex
+    ;
+    margin-left:-2em;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    h3 {
+        font-size: 20px;
+       
+        color: rgb(12, 10, 6);
+        text-align: center;
+}
+}
+
+@media (max-width: 430px) {
+    .game {
+        font-size: 24px;
+        padding: 60px 0 10px;
+    }
+
+    .card {
+        height: 200px;
+    }
+
+    .card-front h1 {
+        font-size: 18px;
+        bottom: -150px;
+    }
+}
 /* responsive for popup section*/
 /* Base popup styles remain the same */
 
@@ -234,8 +300,8 @@ body {
 /* Scroll to Top Button Responsiveness */
 @media screen and (max-width: 768px) {
     .scrollToTopBtn {
-        bottom: 10px;
-        right: 10px;
+        bottom: 30px;
+        right: 50px;
         font-size: 20px;
         padding: 8px 12px;
     }
