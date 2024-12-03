@@ -5,6 +5,20 @@ body {
     padding: 0;
     line-height: 1.5;
 }
+html, body {
+     
+    scroll-behavior: smooth;
+     scroll-snap-type: y; 
+  }
+  
+ 
+  @media (max-width: 800px) {
+    html, body {
+    overflow-x: hidden;
+    }
+  }
+
+
 
 /*navigation menu*/
 @media (max-width: 768px) {
@@ -189,8 +203,9 @@ body {
 
     .card-front h1 {
         font-size: 18px;
-        bottom: -150px;
+        bottom: -143px;
     }
+  
 }
 /* responsive for popup section*/
 /* Base popup styles remain the same */
