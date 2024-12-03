@@ -462,19 +462,31 @@ h3{
 }
 /*section modify*/
 /* General Styling */
+#h_5{
+    font-size: 65px;
+    font-weight: bold;
+    font-style: oblique;
+   
+}
 #h_1, #h_2, #h_3, #h_4 {
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: inherit;
-    top:-64px; 
+    top:1px;
     text-align: center; 
 }
 #h_1 {
-    font-size: 28px;
+    font-size: 24px;
     padding-top: 50px;
+    top: -21px;
     animation-name: example_1;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
+}
+#h_2{
+    top:-46px;
+    font-size: 10px;
+
 }
 @keyframes example_1 {
     from { color: #9b8080;
@@ -482,7 +494,7 @@ h3{
     to{ color: #d5b8ea;
         text-shadow: 2px 2px #f1ff70;}}
 #h_2 {
-    font-size: 30px;
+    font-size: 24px;
     padding-top: 10px;
     animation-name: example_2;
     animation-duration: 1.5s;
@@ -495,7 +507,7 @@ h3{
       
 
 #h_3, #h_4 {
-    font-size: 26px;
+    font-size: 38px;
     padding-top: 10px;
     animation-name: example_3;
     animation-duration: 1.5s;

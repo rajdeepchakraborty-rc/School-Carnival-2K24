@@ -90,6 +90,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    #h_5{
+        font-size: 2em;
+        font-weight: bold;
+        color: yellow;
+    }
     #h_1, #h_2, #h_3, #h_4 {
         font-size: 18px;
         top: 10px;
