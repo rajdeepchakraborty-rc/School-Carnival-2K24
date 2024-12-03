@@ -3,6 +3,7 @@
     margin: 0px 0px;
 }
 
+
 html {
     scroll-behavior: smooth; /* Added smooth scrolling for anchor links */
 }
@@ -12,6 +13,7 @@ body {
     margin: 0;
     padding: 0px;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 /* navber decorate...*/
 #navber {
