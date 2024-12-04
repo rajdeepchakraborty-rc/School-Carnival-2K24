@@ -464,10 +464,18 @@ h3{
 }
 /*section modify*/
 /* General Styling */
+#college_d{
+    position: relative;
+    top: -105px;
+    font-size: 27px;
+
+}
 #h_5{
-    font-size: 65px;
+    position: relative;
+    top: -90px;
+    font-size: 35px;
+   
     font-weight: bold;
-    font-style: oblique;
    
 }
 #h_1, #h_2, #h_3, #h_4 {
@@ -478,9 +486,9 @@ h3{
     text-align: center; 
 }
 #h_1 {
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 50px;
-    top: -21px;
+    top: -74px;
     animation-name: example_1;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -496,8 +504,8 @@ h3{
     to{ color: #d5b8ea;
         text-shadow: 2px 2px #f1ff70;}}
 #h_2 {
-    font-size: 24px;
-    padding-top: 10px;
+    top: -86px;
+    font-size: 25px;
     animation-name: example_2;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;}
@@ -509,8 +517,9 @@ h3{
       
 
 #h_3, #h_4 {
-    font-size: 38px;
-    padding-top: 10px;
+    font-size: 26px;
+    position: relative;
+    top: -78px;
     animation-name: example_3;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;

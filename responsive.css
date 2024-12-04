@@ -60,6 +60,9 @@ html, body {
     font-size: 22px;
     top: 20px; /* Reduce spacing for medium screens */
 }
+#college_d{
+    font-size:10px;
+}
 #para, #para_1 {
     font-size: 14px;
     position:relative;
@@ -93,9 +96,8 @@ html, body {
         
     }
     .Q_code {
-        height: 100px;
-        width: 100px;
-        top: auto;
+        
+        top: -63px;
     }
     #btn_2 {
         font-size: 18px;
@@ -108,13 +110,29 @@ html, body {
     #h_5{
         font-size: 2em;
         font-weight: bold;
-        color: yellow;
+        color: rgb(0, 0, 0);
+    }
+    #college_d{
+        font-size:15px;
     }
     #h_1, #h_2, #h_3, #h_4 {
-        font-size: 18px;
-        top: 10px;
+        font-size: 14px;
+        top: -103px;
         margin-bottom:1px;
     }
+    #h_3{
+        font-size: 20px;
+        top: -89px;
+        margin-bottom: 1px;
+    }
+    #para{
+        top:10px;
+        font-size: 10px;
+        margin-top: -48px;
+    }
+    }
+   
+    
    
     
 
@@ -325,7 +343,7 @@ html, body {
         height: 25vh;
         width: 60vw;
         margin-left: 6.5em;
-        margin-top: 6em;
+        margin-top: 1em;
 
     }
 
@@ -396,7 +414,7 @@ html, body {
 {
     .card{
        
-         margin:6em auto 1em 5em;
+         margin:-1em auto 1em 5em;
         
     }
 } 
