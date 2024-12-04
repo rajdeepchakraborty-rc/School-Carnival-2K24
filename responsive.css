@@ -130,7 +130,7 @@ html, body {
         font-size: 10px;
         margin-top: -48px;
     }
-    }
+    
    
     
    
@@ -343,7 +343,7 @@ html, body {
         height: 25vh;
         width: 60vw;
         margin-left: 6.5em;
-        margin-top: 1em;
+        margin-top: 6em;
 
     }
 
@@ -414,7 +414,7 @@ html, body {
 {
     .card{
        
-         margin:-1em auto 1em 5em;
+         margin:6em auto 1em 5em;
         
     }
 } 
