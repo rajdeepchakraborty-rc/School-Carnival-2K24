@@ -590,6 +590,11 @@ h3{
     cursor: pointer;
 }
 
+#btn_2 a{
+    /* Removed underline and color change of anchor tab on register button */
+    text-decoration: none;
+}
+
 
 /*logo*/
 .logo_1{
