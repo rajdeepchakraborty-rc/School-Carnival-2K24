@@ -86,8 +86,8 @@ html, body {
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
     #h_1, #h_2, #h_3, #h_4 {
-        font-size: 22px;
-        top: 20px; /* Reduce spacing for medium screens */
+        font-size: 15px;
+        top: -85px; /* Reduce spacing for medium screens */
     }
     #para, #para_1 {
         font-size: 14px;
@@ -112,14 +112,20 @@ html, body {
         font-weight: bold;
         color: rgb(0, 0, 0);
     }
-    #college_d{
-        font-size:15px;
+#college_d{
+    font-size:16px;
+    top:-100px;
+    
+}
+    
+    #college_1{
+        left:10px;
+        
     }
-    #h_1, #h_2, #h_3, #h_4 {
-        font-size: 14px;
-        top: -103px;
-        margin-bottom:1px;
-    }
+
+    
+
+   
     #h_3{
         font-size: 20px;
         top: -89px;

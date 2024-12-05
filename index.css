@@ -466,9 +466,14 @@ h3{
 /* General Styling */
 #college_d{
     position: relative;
-    top: -105px;
+    top: -85px;
     font-size: 27px;
 
+
+}
+#college_1{
+    position: relative;
+    left: 23px;
 }
 #h_5{
     position: relative;
@@ -504,7 +509,7 @@ h3{
     to{ color: #d5b8ea;
         text-shadow: 2px 2px #f1ff70;}}
 #h_2 {
-    top: -86px;
+    top: -70px;
     font-size: 25px;
     animation-name: example_2;
     animation-duration: 1.5s;
