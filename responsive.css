@@ -60,6 +60,9 @@ html, body {
     font-size: 22px;
     top: 20px; /* Reduce spacing for medium screens */
 }
+#college_d{
+    font-size:10px;
+}
 #para, #para_1 {
     font-size: 14px;
     position:relative;
@@ -83,8 +86,8 @@ html, body {
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
     #h_1, #h_2, #h_3, #h_4 {
-        font-size: 22px;
-        top: 20px; /* Reduce spacing for medium screens */
+        font-size: 15px;
+        top: -85px; /* Reduce spacing for medium screens */
     }
     #para, #para_1 {
         font-size: 14px;
@@ -93,9 +96,8 @@ html, body {
         
     }
     .Q_code {
-        height: 100px;
-        width: 100px;
-        top: auto;
+        
+        top: -63px;
     }
     #btn_2 {
         font-size: 18px;
@@ -108,13 +110,35 @@ html, body {
     #h_5{
         font-size: 2em;
         font-weight: bold;
-        color: yellow;
+        color: rgb(0, 0, 0);
     }
-    #h_1, #h_2, #h_3, #h_4 {
-        font-size: 18px;
-        top: 10px;
-        margin-bottom:1px;
+#college_d{
+    font-size:16px;
+    top:-100px;
+    
+}
+    
+    #college_1{
+        left:10px;
+        
     }
+
+    
+
+   
+    #h_3{
+        font-size: 20px;
+        top: -89px;
+        margin-bottom: 1px;
+    }
+    #para{
+        top:10px;
+        font-size: 10px;
+        margin-top: -48px;
+    }
+    
+   
+    
    
     
 
