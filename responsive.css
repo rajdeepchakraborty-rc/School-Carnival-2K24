@@ -86,7 +86,7 @@ html, body {
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
     #h_1, #h_2, #h_3, #h_4 {
-        font-size: 15px;
+        font-size: 14px;
         top: -85px; /* Reduce spacing for medium screens */
     }
     #para, #para_1 {
@@ -110,10 +110,10 @@ html, body {
     #h_5{
         font-size: 2em;
         font-weight: bold;
-        color: rgb(0, 0, 0);
+        color:white;
     }
 #college_d{
-    font-size:16px;
+    font-size:14px;
     top:-100px;
     
 }
@@ -127,7 +127,7 @@ html, body {
 
    
     #h_3{
-        font-size: 20px;
+        font-size: 22px;
         top: -89px;
         margin-bottom: 1px;
     }
@@ -144,7 +144,7 @@ html, body {
 
     
     #para, #para_1 {
-        font-size: 12px;
+        
         font-size: 12px;
         position:relative;
         top:-20px;
@@ -373,7 +373,7 @@ html, body {
         border-radius: 12px;
         display: flex
     ;
-        font-size:5px;
+        font-size:8px;
     margin-left:-42px;
         flex-direction: column;
         justify-content: center;
@@ -383,7 +383,9 @@ html, body {
     h3 {
         font-size: 20px;
        
-        color: rgb(12, 10, 6);
+        font-size: 20px;
+        color: rgb(222 60 255);
+        
         text-align: center;
 }
 }
