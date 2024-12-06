@@ -78,7 +78,7 @@ body {
 /* Game Section CSS */
 
 .games{
-    background: url(/Assets/bakground_image.jpg) no-repeat center/cover;
+    /* background: url(/Assets/bakground_image.jpg) no-repeat center/cover; */
     padding-bottom: 125px;
     width: 100vw;
 }
@@ -558,13 +558,15 @@ h3{
 #para, #para_1 {
     position: relative;
     top:-80px;
+    color: white;
     font-size: 14px; 
     text-align: justify; 
     margin: 0 20px; 
     padding: 10px;
 }
 #para_1 {
-    background-color: #307fff;
+    background-color: #5a3960;
+    box-shadow: 0 4px 6px rgba(230, 201, 201, 0.1);
     color: white;
     border-radius: 5px;
     margin: 10px 20px; 
@@ -589,10 +591,11 @@ h3{
     width: auto; 
     padding: 10px 20px; 
     margin: 10px auto; 
+    text-decoration: none;
    border-radius: 5px;
-   color: #000000;
-    background-color: rgb(212, 93, 255);
-    box-shadow: 4px 7px 3px rgb(211, 204, 213); 
+   color: #e6dbdb;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 6px 7px rgb(84, 73, 86) 
 }
 #btn_2:hover {
     background-color: #000000;
