@@ -102,6 +102,9 @@ body {
     padding: 105px 0 40px;
     font-size: 50px;
 }
+.games h3{
+    color:#f0f64f ;
+}
 
 .card-container {
     display: grid;
@@ -160,7 +163,7 @@ body {
   
   /* Card Back Styles */
   .card-back {
-    background-color: #f59595;
+    background-color: #9d4dce;
     color: #fff; /* Change text color for better visibility on light background */
     transform: rotateY(180deg);
   }
@@ -536,13 +539,13 @@ h3{
     }
 #h_5{
     animation-name: example_2;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
     @keyframes example_2 {
         from { color: #5c02a1;
             text-shadow: 2px 2px #d8eaef;;}
-        to{ color: #ff2424;
+        to{ color: #c30000;
             text-shadow: 2px 2px #fbff11;}}
       
 
@@ -553,7 +556,7 @@ h3{
     position: relative;
     top: -78px;
     animation-name: example_3;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
    
 }
@@ -561,7 +564,7 @@ h3{
 @keyframes example_3 {
     from { color: #5c02a1;
         text-shadow: 2px 2px #d8eaef;;}
-    to{ color: #ff2424;
+    to{ color: #c30000;
         text-shadow: 2px 2px #fbff11;}}
   
 
