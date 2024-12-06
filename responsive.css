@@ -383,7 +383,9 @@ html, body {
     h3 {
         font-size: 20px;
        
-        color: rgb(12, 10, 6);
+        font-size: 20px;
+        color: rgb(222 60 255);
+        
         text-align: center;
 }
 }

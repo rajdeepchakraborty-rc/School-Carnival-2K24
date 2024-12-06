@@ -273,7 +273,7 @@ footer{
 h3{
     font-size: 28px;
     margin-bottom: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(173 9 160);
     text-align: center;
 }
 .footer-content p{
@@ -493,8 +493,7 @@ h3{
     position: relative;
     top: -85px;
     font-size: 27px;
-    color: white;
-
+    color: #e7ab25;
 
 }
 #college_1{
@@ -533,7 +532,7 @@ h3{
 #h_2 {
     top: -70px;
     font-size: 25px;
-    color: white;
+    color: rgb(255, 255, 255);
     }
 #h_5{
     animation-name: example_2;
@@ -541,10 +540,10 @@ h3{
     animation-iteration-count: infinite;
 }
     @keyframes example_2 {
-        from { color: #000000;
-            text-shadow: 2px 2px #00a4cd;}
-        to{ color: #5c02a1;
-            text-shadow: 2px 2px #d8eaef;}}
+        from { color: #5c02a1;
+            text-shadow: 2px 2px #d8eaef;;}
+        to{ color: #ff2424;
+            text-shadow: 2px 2px #fbff11;}}
       
 
       
@@ -560,10 +559,10 @@ h3{
 }
 
 @keyframes example_3 {
-    from { color: #000000;
-        text-shadow: 2px 2px #00a4cd;}
-    to{ color: #5c02a1;
-        text-shadow: 2px 2px #d8eaef;}}
+    from { color: #5c02a1;
+        text-shadow: 2px 2px #d8eaef;;}
+    to{ color: #ff2424;
+        text-shadow: 2px 2px #fbff11;}}
   
 
 
