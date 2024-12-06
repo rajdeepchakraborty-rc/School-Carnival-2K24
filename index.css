@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    
     margin: 0;
     padding: 0px;
     overflow-x: hidden;
@@ -32,6 +32,9 @@ body {
     height: 15vh;
     /* background-color: rgba(255, 229, 250); */
     display: flex;
+    
+  font-family: "Bree Serif", serif;
+
 
     flex-direction: row;
    
@@ -69,8 +72,7 @@ body {
  .nav_element a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-style:inherit;
-    font-family:'Times New Roman', Times, serif;
+    
     font-weight: bold;
     font-size: 22px;
  }
@@ -87,9 +89,11 @@ body {
 /* Game Section CSS */
 
 .games{
-    background: url(/Assets/bakground_image.jpg) no-repeat center/cover;
+    /* background: url(/Assets/bakground_image.jpg) no-repeat center/cover; */
+    background-color: #2a0633;
     padding-bottom: 125px;
     width: 100vw;
+    font-family: "Parkinsans", sans-serif;
 }
 
 .game{
@@ -241,6 +245,7 @@ body {
 
 /*footer decorate*/
 footer{
+    font-family: "Parkinsans", sans-serif;
     width: 100vw;
     bottom:0px;
     background: #b4a0a0;
@@ -460,7 +465,7 @@ h3{
    flex-direction: column;
     /* background: url(/Assets/bakground_image.jpg); */
     
-   
+    font-family: "Parkinsans", sans-serif;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     
@@ -505,63 +510,61 @@ h3{
 }
 #h_1, #h_2, #h_3, #h_4 {
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: inherit;
+   
     top:1px;
     text-align: center; 
 }
-#h_1 {
+/* #h_1 {
     font-size: 26px;
     padding-top: 50px;
     top: -74px;
     animation-name: example_1;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-}
+} */
 #h_2{
     top:-46px;
     font-size: 10px;
 
 }
-@keyframes example_1 {
-    from { color: #9b8080;
-        text-shadow: 2px 2px #e3ec82;}
-    to{ color: #d5b8ea;
-        text-shadow: 2px 2px #f1ff70;}}
+
 #h_2 {
     top: -70px;
     font-size: 25px;
+    color: white;
+    }
+#h_5{
     animation-name: example_2;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;}
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
     @keyframes example_2 {
-        from { color: #d89d9d;
+        from { color: #000000;
             text-shadow: 2px 2px #00a4cd;}
         to{ color: #5c02a1;
             text-shadow: 2px 2px #d8eaef;}}
       
 
-#h_3, #h_4 {
+      
+
+#h_3 {
     font-size: 26px;
     position: relative;
     top: -78px;
     animation-name: example_3;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-name: example_4;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+   
 }
+
 @keyframes example_3 {
-    from { color: #d89d9d;
+    from { color: #000000;
         text-shadow: 2px 2px #00a4cd;}
-    to{ color: #9568b8;
-        text-shadow: 2px 2px #00a4cd;}}
-@keyframes example_4 {
-            from { color: #3020e2;
-                text-shadow: 2px 2px #ffffff;}
-            to{ color: #22ff2d;
-                text-shadow: 2px 2px #d0e8ee;}}
+    to{ color: #5c02a1;
+        text-shadow: 2px 2px #d8eaef;}}
+  
+
+
           
 /* Responsive Paragraph */
 #para, #para_1 {
@@ -572,6 +575,7 @@ h3{
     text-align: justify; 
     margin: 0 20px; 
     padding: 10px;
+    font-family: "Parkinsans", sans-serif;
 }
 #para_1 {
     background-color: #5a3960;
@@ -579,6 +583,7 @@ h3{
     color: white;
     border-radius: 5px;
     margin: 10px 20px; 
+    font-family: "Parkinsans", sans-serif;
 }
 
 /* QR Code Styling */
@@ -604,7 +609,8 @@ h3{
    border-radius: 5px;
    color: #e6dbdb;
     background-color: rgb(255, 255, 255);
-    box-shadow: 4px 6px 7px rgb(84, 73, 86) 
+    box-shadow: 4px 6px 7px rgb(84, 73, 86) ;
+    font-family: "Parkinsans", sans-serif;
 }
 #btn_2:hover {
     background-color: #000000;
