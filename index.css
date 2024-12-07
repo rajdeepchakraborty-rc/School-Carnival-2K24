@@ -88,6 +88,29 @@ body {
 
 }
 
+/* About Section CSS */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffe8b5; 
+    color: #333; 
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #d76a03; 
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+
 /* Game Section CSS */
 
 .games{
