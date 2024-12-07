@@ -194,7 +194,7 @@ body {
 
   /* Added: Image for Quiz */
   .Dance {
-    background-image: url("https://www.dancewavescompetition.com/media/images/20170808072349_home_banner_01.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/group-women-colorful-traditional-dress-are-dancing-stage_662214-98229.jpg");
     background-size: cover;
     /* Ensures the image covers the div */
     background-position: center;
@@ -656,5 +656,16 @@ h3{
     position: relative;
     width: 111px;
     left: 120px;
+}
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
