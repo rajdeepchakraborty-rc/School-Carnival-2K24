@@ -436,3 +436,31 @@ html, body {
     }
 }
 
+/* Responsive for phone  */
+@media only screen and (max-width: 768px) {
+    
+        
+    
+           #card_back_btn{
+            left:6em;
+            top:-1em;
+             width: 8em;
+            height:50px;
+    
+    
+        }
+    
+
+    
+}
+@media only screen and (max-width: 380px)
+{
+    #card_back_btn{
+        left:4em;
+        top:-1em;
+         width: 8em;
+        height:50px;
+
+    }
+}
+
