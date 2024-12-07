@@ -438,8 +438,7 @@ html, body {
 
 /* Responsive for phone  */
 @media only screen and (max-width: 768px) {
-    #myVideo {
-
+    
         
     
            #card_back_btn{
@@ -450,7 +449,7 @@ html, body {
     
     
         }
-    }
+    
 
     
 }
