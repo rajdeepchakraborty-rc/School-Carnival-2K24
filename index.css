@@ -692,9 +692,9 @@ h3{
   }
   
   .team-member {
-    max-width: 200px;
+    max-width: 220px;
     text-align: center;
-    background: #fff;
+    background: #0a73c6;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -715,12 +715,12 @@ h3{
     font-family: "Poppins", serif;
     font-size: 1.2rem;
     margin-bottom: 5px;
-    color: #444;
+    color: #78eb86;
   }
   
   .team-member p {
     font-size: 0.9rem;
-    color: #666;
+    color: #e1e1e1;
     font-weight: bold;
   }
   
