@@ -189,10 +189,6 @@ html, body {
         margin-top:5em;/* Reduce card height for smaller screens */
     }
 
-    .card-front h1 {
-        font-size: 20px; /* Adjust font size */
-        bottom: -180px;
-    }
     .card-back {
         position: absolute;
         font-size:15px;
@@ -354,10 +350,8 @@ html, body {
     }
 
     .card-front h1 {
-        position: relative;
-    top: 142px;
         font-size: 18px; 
-        bottom: -200px;
+        bottom: -120px;
     }
     h3 {
         font-size: 19px;
