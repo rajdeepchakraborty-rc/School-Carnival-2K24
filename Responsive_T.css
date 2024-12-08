@@ -1,0 +1,76 @@
+
+/* all responsive for  cricket card */
+/* Medium devices (tablets, small desktops) */
+@media screen and (max-width: 1497px) {
+    #card_cricket {
+        margin-left: 31vw; 
+    }
+}
+@media screen and (max-width: 1299px) {
+    #card_cricket {
+        margin-left: 20vw; 
+    }
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 900px) {
+    #card_cricket {
+        margin-left: 1vw; 
+    }
+}
+/*cricket card */
+@media screen and (max-width: 769px) {
+    #card_cricket {
+        margin-left:9vw; 
+     } 
+}
+@media screen and (max-width: 481px) {
+    #card_cricket {
+        margin-left:15vw; 
+     } 
+}
+/* college title */
+@media screen and (max-width: 1140px) {
+    #s_hero{
+    margin-top:10vh ;
+    }
+
+}
+@media screen and (max-width:768px) {
+    #h_2{
+    font-size:3.5vw;
+    }
+
+}
+@media screen and (max-width:481px) {
+    #h_2{
+    font-size:3.7vw;
+    }
+
+}
+@media screen and (max-width:768px) {
+    #college_d{
+    font-size:3.5vw;
+    }
+
+}
+@media screen and (max-width:768px) {
+    #h_5{
+    font-size:4.5vw;
+    padding-top: 1vh;
+   
+    }
+    #h_3{
+        font-size:3.5vw;
+        padding-top: 2vh;
+    }
+    #para{
+        margin-top: -8vh;
+    }
+}
+/* navigation menu */
+
+
+
+
+
