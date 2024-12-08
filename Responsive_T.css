@@ -78,6 +78,7 @@
     #nave_menu  img{
         width: 10vw;
         height: 9vw;
+        padding-top:0.2em;
     }
 }
 
