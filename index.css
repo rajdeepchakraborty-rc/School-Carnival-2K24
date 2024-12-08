@@ -17,6 +17,86 @@ body {
     box-sizing: border-box;
 }
 
+/* Page Loader CSS */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url(https://cdn.pixabay.com/animation/2023/04/07/04/39/04-39-46-534_512.gif) no-repeat center/cover; */
+    background-color: #211038;
+    display: flex;
+    flex-direction: column;
+    /* Stack loader and text vertically */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Ensure it stays above other content */
+    text-align: center;
+}
+
+#loading-screen h1,
+h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+#loading-screen img {
+    position: relative;
+    top: -15vh;
+    margin-top: 10vh;
+}
+
+#loading-screen h1 {
+    position: relative;
+    top: -10vh;
+    font-size: 2.5rem;
+    color: #f0e68c;
+    padding-bottom: 10px;
+}
+
+#loading-screen h2 {
+    position: relative;
+    top: -7vh;
+    font-size: 1.5rem;
+    color: #dda0dd;
+}
+
+
+/* Loading Spinner */
+.loader {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #d76a03;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Loading Text */
+.loading-text {
+    font-size: 1.5rem;
+    color: #dda0dd;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+
 /*hero */
 #myVideo {
     position: fixed;

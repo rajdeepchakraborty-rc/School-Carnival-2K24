@@ -39,6 +39,18 @@
 </head>
 
 <body>
+
+    <!-- Page Loader -->
+    <div id="loading-screen">
+        <img src="Assets/Favicon.png" alt="College Logo">
+        <h1>School Carnival 2K24</h1>
+        <h2>oraganised by</h2>
+        <h2>Hooghly Engineering & Technology College</h2>
+        <div class="loader"></div>
+        <p class="loading-text">Get Ready for the Fun!</p>
+    </div>
+
+
     <div id="hero">
         <video autoplay muted loop id="myVideo">
             <source src="Assets/background.mp4.mp4" type="video/mp4">
@@ -323,6 +335,7 @@
 
     </footer>
 
+    <!-- JS for PopUp -->
     <script>
 
         /*
@@ -337,7 +350,10 @@
          }, 1000)
  
          */
+    </script>
 
+    <!-- JS for To the Top Button -->
+    <script>
 
         //Show the button when the user scrolls down 100px from the top
         window.onscroll = function () { scrollFunction() };
@@ -359,6 +375,25 @@
             });
         }
 
+    </script>
+
+    <!-- JS for PreLoader -->
+    <script>
+
+        // Ensure the page starts at the top
+        window.scrollTo(0, 0);
+
+        // Show loading screen for 5 seconds
+        setTimeout(() => {
+            // Hide the loading screen
+            document.getElementById("loading-screen").style.display = "none";
+
+            // Show the main content
+            document.getElementById("hero").style.display = "block";
+
+            // Scroll to the top after showing content
+            window.scrollTo(0, 0);
+        }, 2000); // 2000 milliseconds = 2 seconds
 
     </script>
 
