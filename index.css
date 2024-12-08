@@ -680,8 +680,8 @@ h3{
     margin-top: 2rem;
     animation: pulse 1.5s infinite;
     position: relative;
-    width: 111px;
-    left:1.5vw;
+    width: 132px;
+    left: 0.2vw;
     cursor: pointer;
 }
 #card_back_btn_1{
