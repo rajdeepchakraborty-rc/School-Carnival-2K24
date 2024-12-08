@@ -46,6 +46,8 @@ body {
     top: 0px;
     z-index: 1021 !important;
     margin-bottom: 3rem;
+    margin-top: -20px;
+    padding-bottom: 1vw;
    
     
 }
@@ -679,7 +681,22 @@ h3{
     animation: pulse 1.5s infinite;
     position: relative;
     width: 111px;
-    left: 120px;
+    left:1.5vw;
+    cursor: pointer;
+}
+#card_back_btn_1{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #180b20;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    animation: pulse 1.5s infinite;
+    position: relative;
+    width: 111px;
+    left:8vw;
 }
 
 @keyframes pulse {
