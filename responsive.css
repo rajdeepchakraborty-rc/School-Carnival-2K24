@@ -355,7 +355,7 @@ html, body {
 
     .card-front h1 {
         position: relative;
-    top: 120px;
+    top: 142px;
         font-size: 18px; 
         bottom: -200px;
     }
@@ -433,34 +433,6 @@ html, body {
         bottom: 30px;
         font-size: 20px;
         padding: 8px 12px;
-    }
-}
-
-/* Responsive for phone  */
-@media only screen and (max-width: 768px) {
-    
-        
-    
-           #card_back_btn{
-            left:6em;
-            top:-1em;
-             width: 8em;
-            height:50px;
-    
-    
-        }
-    
-
-    
-}
-@media only screen and (max-width: 380px)
-{
-    #card_back_btn{
-        left:4em;
-        top:-1em;
-         width: 8em;
-        height:50px;
-
     }
 }
 
