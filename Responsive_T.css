@@ -48,13 +48,13 @@
         left: 16vw;
     }
 }
-@media screen and (max-width: 559px) {
+/* @media screen and (max-width: 559px) {
     .team-member{
-        /* width: 40vw; */
+        width: 40vw;
         height:55vw;
     }
 
-}
+} */
 /* college title */
 @media screen and (max-width: 1140px) {
     #s_hero {
