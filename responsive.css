@@ -386,6 +386,15 @@ html, body {
 }
 
 
+@media screen and (max-width: 480px) {
+.card-front h1 {
+    font-size: 18px; 
+    bottom: -18vh;
+}
+.card-container{
+    gap:28px;
+}
+}
 
 /* footer section*/
 /* Footer Responsiveness */
