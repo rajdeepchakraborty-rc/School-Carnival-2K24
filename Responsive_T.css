@@ -85,19 +85,21 @@
 @media screen and (max-width:768px) {
     #college_d {
         font-size: 3.5vw;
+        top:-100px;
+       
     }
 
 }
 
 @media screen and (max-width:768px) {
     #h_5 {
-        font-size: 4.5vw;
+        font-size: 6.5vw;
         padding-top: 1vh;
 
     }
 
     #h_3 {
-        font-size: 3.5vw;
+        font-size: 5vw;
         padding-top: 2vh;
     }
 
