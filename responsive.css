@@ -186,6 +186,7 @@ html, body {
         height:10em; 
         width:15em;
         margin-left:2em;
+        
         margin-top:5em;/* Reduce card height for smaller screens */
     }
 
@@ -344,7 +345,7 @@ html, body {
         font-size: 10px;
         height: 25vh;
         width: 60vw;
-        margin-left: 6.5em;
+        margin-left: 15vw;
         margin-top: 6em;
 
     }
@@ -367,7 +368,7 @@ html, body {
         border-radius: 12px;
         display: flex
     ;
-        font-size:8px;
+        font-size:10.5px;
     margin-left:-42px;
         flex-direction: column;
         justify-content: center;
@@ -385,6 +386,15 @@ html, body {
 }
 
 
+@media screen and (max-width: 480px) {
+.card-front h1 {
+    font-size: 18px; 
+    bottom: -18vh;
+}
+.card-container{
+    gap:28px;
+}
+}
 
 /* footer section*/
 /* Footer Responsiveness */

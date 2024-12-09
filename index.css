@@ -34,13 +34,14 @@ body {
     z-index: 9999;
     /* Ensure it stays above other content */
     text-align: center;
+    font-family: "Parkinsans", sans-serif;
 }
 
 #loading-screen h1,
 h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: "Bree Serif", serif;
+    
 }
-
 /* #loading-screen img {
     position: relative;
     top: -15vh;
@@ -93,7 +94,7 @@ h2 {
 .loading-text {
     font-size: 1.5rem;
     color: #dda0dd;
-    font-family: Arial, sans-serif;
+    
     margin-top: 20px;
 }
 
@@ -189,12 +190,14 @@ h2 {
 
 .about-section h2 {
     font-size: 2.5rem;
+    font-family: "Bree Serif", serif;
     color: #d76a03;
     margin-bottom: 20px;
 }
 
 .about-section p {
     font-size: 1.2rem;
+    font-family: "Parkinsans", sans-serif;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
@@ -776,7 +779,7 @@ h4,
     border-radius: 5px;
     color: #e6dbdb;
     background-color: rgb(255, 255, 255);
-    box-shadow: 4px 6px 7px rgb(84, 73, 86);
+    box-shadow: 4px 6px 7px rgb(203, 216, 20);
     font-family: "Parkinsans", sans-serif;
 }
 
@@ -810,8 +813,8 @@ h4,
 #card_back_btn {
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #180b20;
-    color: rgb(255, 255, 255);
+    background-color: #ff9900;
+    color: rgb(0, 0, 0);
     border-radius: 8px;
     font-weight: bold;
     text-transform: uppercase;
@@ -821,6 +824,7 @@ h4,
     width: 132px;
     left: 0.2vw;
     cursor: pointer;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
 }
 
 #card_back_btn_1 {
