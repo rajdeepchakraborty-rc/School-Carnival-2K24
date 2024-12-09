@@ -31,7 +31,7 @@
 /*cricket card */
 @media screen and (max-width: 769px) {
     #card_cricket {
-        margin-left: 9vw;
+        margin-left: 15vw;
     }
 
     #card_back_btn_1 {
@@ -48,13 +48,24 @@
         left: 16vw;
     }
 }
+/* @media screen and (max-width: 559px) {
+    .team-member{
+        width: 40vw;
+        height:55vw;
+    }
 
+} */
 /* college title */
 @media screen and (max-width: 1140px) {
     #s_hero {
         margin-top: 10vh;
     }
 
+}
+@media screen and (max-width: 481px) {
+    #s_hero {
+        margin-top: -5vh;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -74,19 +85,21 @@
 @media screen and (max-width:768px) {
     #college_d {
         font-size: 3.5vw;
+        top:-100px;
+       
     }
 
 }
 
 @media screen and (max-width:768px) {
     #h_5 {
-        font-size: 4.5vw;
+        font-size: 6.5vw;
         padding-top: 1vh;
 
     }
 
     #h_3 {
-        font-size: 3.5vw;
+        font-size: 5vw;
         padding-top: 2vh;
     }
 
@@ -94,7 +107,26 @@
         margin-top: -8vh;
     }
 }
+@media screen and (max-width:480px) {
+    #h_5 {
+        font-size: 7vw;
+        padding-top: 1vh;
 
+    }
+
+    #h_3 {
+        font-size: 5vw;
+        padding-top: 2vh;
+    }
+}
+/* Rules button */
+@media screen and (max-width:563px) {
+    
+#card_back_btn_1 {
+    top:-2.8vh;
+}
+
+}
 /* navigation menu */
 @media screen and (max-width:769px) {
     .nav_element a {
@@ -106,5 +138,12 @@
         width: 10vw;
         height: 9vw;
         padding-top: 0.2em;
+    }
+}
+@media screen and (max-width:480px) {
+    #card_back_btn_1 {
+    /* height:4em; */
+    width: 95px;
+    padding: 0.5rem 1rem;
     }
 }
