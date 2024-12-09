@@ -34,13 +34,14 @@ body {
     z-index: 9999;
     /* Ensure it stays above other content */
     text-align: center;
+    font-family: "Parkinsans", sans-serif;
 }
 
 #loading-screen h1,
 h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: "Bree Serif", serif;
+    
 }
-
 /* #loading-screen img {
     position: relative;
     top: -15vh;
@@ -93,7 +94,7 @@ h2 {
 .loading-text {
     font-size: 1.5rem;
     color: #dda0dd;
-    font-family: Arial, sans-serif;
+    
     margin-top: 20px;
 }
 
@@ -189,12 +190,14 @@ h2 {
 
 .about-section h2 {
     font-size: 2.5rem;
+    font-family: "Bree Serif", serif;
     color: #d76a03;
     margin-bottom: 20px;
 }
 
 .about-section p {
     font-size: 1.2rem;
+    font-family: "Parkinsans", sans-serif;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;

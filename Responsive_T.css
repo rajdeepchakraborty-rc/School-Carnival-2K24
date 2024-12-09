@@ -31,7 +31,7 @@
 /*cricket card */
 @media screen and (max-width: 769px) {
     #card_cricket {
-        margin-left: 9vw;
+        margin-left: 15vw;
     }
 
     #card_back_btn_1 {
@@ -48,13 +48,24 @@
         left: 16vw;
     }
 }
+@media screen and (max-width: 559px) {
+    .team-member{
+        /* width: 40vw; */
+        height:55vw;
+    }
 
+}
 /* college title */
 @media screen and (max-width: 1140px) {
     #s_hero {
         margin-top: 10vh;
     }
 
+}
+@media screen and (max-width: 481px) {
+    #s_hero {
+        margin-top: -5vh;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -94,7 +105,26 @@
         margin-top: -8vh;
     }
 }
+@media screen and (max-width:480px) {
+    #h_5 {
+        font-size: 7vw;
+        padding-top: 1vh;
 
+    }
+
+    #h_3 {
+        font-size: 5vw;
+        padding-top: 2vh;
+    }
+}
+/* Rules button */
+@media screen and (max-width:563px) {
+    
+#card_back_btn_1 {
+    top:-2.8vh;
+}
+
+}
 /* navigation menu */
 @media screen and (max-width:769px) {
     .nav_element a {

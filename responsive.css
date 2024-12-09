@@ -186,6 +186,7 @@ html, body {
         height:10em; 
         width:15em;
         margin-left:2em;
+        
         margin-top:5em;/* Reduce card height for smaller screens */
     }
 
@@ -344,7 +345,7 @@ html, body {
         font-size: 10px;
         height: 25vh;
         width: 60vw;
-        margin-left: 6.5em;
+        margin-left: 15vw;
         margin-top: 6em;
 
     }
