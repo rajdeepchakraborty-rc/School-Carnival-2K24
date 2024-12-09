@@ -142,6 +142,8 @@
 }
 @media screen and (max-width:480px) {
     #card_back_btn_1 {
-    height:4em;
+    /* height:4em; */
+    width: 95px;
+    padding: 0.5rem 1rem;
     }
 }
