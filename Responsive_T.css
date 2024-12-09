@@ -140,3 +140,8 @@
         padding-top: 0.2em;
     }
 }
+@media screen and (max-width:480px) {
+    #card_back_btn_1 {
+    height:4em;
+    }
+}
