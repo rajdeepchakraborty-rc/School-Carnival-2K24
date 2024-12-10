@@ -862,12 +862,20 @@ h4,
     padding: 50px 20px;
     text-align: center;
     background-color: #570da9;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
+.team-member i{
+    color: black;
+    font-size: 1.5em;
+}
 .team-section h2 {
     font-size: 2rem;
     color: #d60e7d;
     margin-bottom: 30px;
+    margin-right: 2vh;
 }
 
 .team-container {
