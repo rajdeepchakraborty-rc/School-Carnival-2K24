@@ -115,6 +115,7 @@ h2 {
     border-top: 1px solid var(--gfg-darkgrey);
     box-shadow: 0 2px 20px -10px var(--gfg-head-shadow);
     height: 15vh;
+    max-height: 150px;
     /* background-color: rgba(255, 229, 250); */
     display: flex;
 
