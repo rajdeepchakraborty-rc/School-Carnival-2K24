@@ -98,7 +98,7 @@ html, body {
     .Q_code {
         
         top: -63px;
-        padding-bottom: 20px;
+        padding-bottom:4vh;
     }
     #btn_2 {
         font-size: 18px;
@@ -156,7 +156,7 @@ html, body {
     .Q_code {
         height: 80px;
         width: 80px;
-        padding-bottom: 20px;
+       
     }
     #btn_2 {
         margin-top:-20px;
