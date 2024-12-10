@@ -368,8 +368,8 @@ html, body {
         height: 100%;
         backface-visibility: hidden;
         border-radius: 12px;
-        display: flex
-    ;
+        display: flex;
+    
         font-size:10.5px;
     margin-left:-42px;
         flex-direction: column;
@@ -387,16 +387,34 @@ html, body {
 }
 }
 
-
 @media screen and (max-width: 480px) {
-.card-front h1 {
-    font-size: 18px; 
-    bottom: -18vh;
-}
-.card-container{
-    gap:28px;
-}
-}
+    .card-front h1 {
+        font-size: 18px; 
+        bottom: -18vh;
+    }
+    .card-container{
+        gap:28px;
+    }
+    }
+
+/* Team Section */
+/* Media Query for smaller screens */
+@media (max-width: 560px) {
+    .team-section .team-member {
+      width: 150px; /* Smaller size for small screens */
+      height: 240px;
+      margin: 10px;
+    }
+  
+    .team-section .team-member h3 {
+      font-size: 1rem; /* Adjust text size */
+    }
+  
+    .team-section .team-member p {
+      font-size: 0.9rem; /* Adjust description size */
+    }
+  }
+
 
 /* footer section*/
 /* Footer Responsiveness */
