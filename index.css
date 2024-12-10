@@ -886,13 +886,14 @@ h4,
 }
 
 .team-member {
-    max-width: 220px;
+    /* max-width: 220px; */
     text-align: center;
     background: #0a73c6;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px;
     transition: transform 0.3s ease;
+    width: 18vw;
 }
 
 .team-member:hover {
