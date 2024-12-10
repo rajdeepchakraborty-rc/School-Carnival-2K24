@@ -1,6 +1,6 @@
 /* all responsive for  cricket card */
 /* Medium devices (tablets, small desktops) */
-@media screen and (max-width: 1497px) {
+@media screen and (max-width: 1699px) {
     #card_cricket {
         margin-left: 31vw;
     }
