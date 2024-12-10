@@ -160,7 +160,11 @@
 
     #contact
     {
-       margin-left:11vw;
+       margin-left:3vw;
+    }
+    .footer-content {
+      
+        padding: 25px 9vw 0;
     }
    
 
@@ -171,12 +175,27 @@
     }
     #contact
     {
-       margin-left:10vh;
+       margin-left:3vh;
+    }
+    .footer-content {
+      
+        padding: 25px 9vw 0;
     }
 
+
+}
+@media screen and (max-width:1318px) {
+    #contact
+    {
+       margin-left:3vh;
+    }
+    .footer-content {
+      
+        padding: 25px 3vw 0;
+    }
 }
 @media screen and (max-width:768px) {
     #contact{
-    margin-left: 1vw;
+    margin-left: 1vh;
     }
 }
