@@ -44,7 +44,7 @@
     <div id="loading-screen">
         <img src="Assets/Favicon.png" alt="College Logo">
         <h1>School Carnival 2K24</h1>
-        <h2>oraganized by</h2>
+        <h2>organized by</h2>
         <h2>Hooghly Engineering & Technology College</h2>
         <div class="loader"></div>
         <p class="loading-text">Get Ready for the Fun!</p>
@@ -208,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="card" onclick="this.classList.toggle('flip')">
+            <div class="card" onclick="this.classList.toggle('flip')" id="side">
                 <div class="card-inner">
                     <div class="card-front SaD">
                         <h1>Sit & Draw</h1>
@@ -225,7 +225,7 @@
                 </div>
             </div>
 
-            <div class="card" onclick="this.classList.toggle('flip')">
+            <div class="card" onclick="this.classList.toggle('flip')"id="side">
                 <div class="card-inner">
                     <div class="card-front Chess">
                         <h1>Chess</h1>
@@ -242,7 +242,7 @@
                 </div>
             </div>
 
-            <div class="card" onclick="this.classList.toggle('flip')" id="card_cricket">
+            <div class="card" onclick="this.classList.toggle('flip')" id="card_cricket" id="side">
                 <div class="card-inner">
                     <div class="card-front Cricket">
                         <h1>Cricket</h1>
@@ -263,17 +263,22 @@
 
     <!-- Team Section -->
     <section id="team" class="team-section">
-        <h2>Meet Our Team</h2>
+        <h2>Designed by</h2>
+        <br>
         <div class="team-container">
             <div class="team-member">
-                <img src="Assets/Rajdeep Chakraborty.jpg" alt="Team Member 1">
+                <!-- <img src="Assets/Rajdeep Chakraborty.jpg" alt="Team Member 1"> -->
                 <h3>Rajdeep Chakraborty</h3>
                 <p>2nd year, CSE</p>
+                <a href="https://www.hetc.ac.in/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.hetc.ac.in/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
             <div class="team-member">
-                <img src="Assets/Pritam Tung.jpg" alt="Team Member 2">
+                <!-- <img src="Assets/Pritam Tung.jpg" alt="Team Member 2"> -->
                 <h3>Pritam Tung</h3>
                 <p>2nd year, CSE</p>
+                <a href="https://github.com/PRITAM-TU" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pritam-t-545866266/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </section>
@@ -284,12 +289,13 @@
                 <img class="logo" src="Assets/Favicon.png" alt="College Logo">
             </a>
             <div class="footer-content">
-                <h3>School Carnival 2K24</h3>
+                <h3 id="school">School Carnival 2K24</h3>
                 <p>Unleashing Creativity, Fun, and Learning - Together!</p>
             </div>
 
             <div class="footer-content">
                 <h3>Contact Us</h3>
+                <div id="contact">
                 <h4><i class="fas fa-map-marker-alt"></i>Address</h4>
                 <a target="_blank"
                     href="https://www.google.com/maps?ll=22.900211,88.392222&z=15&t=m&hl=en-US&gl=US&mapclient=embed&cid=8238768032324192169">
@@ -306,6 +312,7 @@
 
                 <h4><i class="fas fa-envelope"></i>Email</h4>
                 <a href="mailto:mail@hetc.ac.in" class="tele">schoolcarnival@hetc.ac.in</a>
+               </div>
 
             </div>
 

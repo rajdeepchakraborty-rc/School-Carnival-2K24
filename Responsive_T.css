@@ -147,3 +147,56 @@
     padding: 0.5rem 1rem;
     }
 }
+/* game section responsive  */
+@media screen and (max-width:2992px) {
+    .card-container{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #card_back_btn_1 {
+        margin-left:-4vw;
+    }
+
+    #contact
+    {
+       margin-left:3vw;
+    }
+    .footer-content {
+      
+        padding: 25px 9vw 0;
+    }
+   
+
+}
+@media screen and (max-width:1700px) {
+    #card_back_btn_1 {
+        margin-left:1vw;
+    }
+    #contact
+    {
+       margin-left:3vh;
+    }
+    .footer-content {
+      
+        padding: 25px 9vw 0;
+    }
+
+
+}
+@media screen and (max-width:1318px) {
+    #contact
+    {
+       margin-left:3vh;
+    }
+    .footer-content {
+      
+        padding: 25px 3vw 0;
+    }
+}
+@media screen and (max-width:768px) {
+    #contact{
+    margin-left: 1vh;
+    }
+    
+}
