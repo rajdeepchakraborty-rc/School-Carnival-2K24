@@ -33,7 +33,9 @@ This is the official website for the School Carnival 2K24 Event to be held in HE
 <!--Line-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
-##  Team
+##  Team School Carnival 2K24
+
+### Website Designed by:
 
 | ![Rajdeep Chakraborty](https://avatars.githubusercontent.com/u/68934988?v=4&s=80) | ![Pritam Tung](https://avatars.githubusercontent.com/u/187090732?v=4&s=80) |
 |:--:|:--:|
